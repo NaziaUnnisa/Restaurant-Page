@@ -1,0 +1,234 @@
+/* General reset and styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("download.jpg");
+    color: #070707;
+}
+
+header {
+    
+    text-decoration: #f0af0a;
+    text-align: center;
+    padding: 20px;
+    background-image: url(background2.jpg);
+    
+}
+
+header h1 {
+    font-size: 50px;
+    color: rgb(14, 13, 13);
+    margin-top: 10px;   
+}
+header h2 {
+    font-size: 20px;
+    color: rgb(252, 248, 248);
+    margin-top: 10px;   
+}
+
+
+header .logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+main {
+    padding: 40px 20px;
+    text-align: center;
+}
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(135deg, #ff9966, #ff5e62);
+    color: white;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+.about, .specials {
+    text-align: center;
+    padding:  20px;
+    background-color: #ee8aee;
+}
+
+.special-item img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.menu h2 {
+    font-size: 28px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: linear-gradient(135deg, #58391cd3,#bd11ae,#58391cd3);
+
+    
+    
+}
+
+.menu-table {
+    width: 95%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 30px;
+    border: 5px solid #141414;
+    background-color: #683e3e;
+    
+}
+
+.menu-table th, .menu-table td {
+    padding: 20px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.menu-table th {
+    background-color: #532a23;
+    color: white;
+    
+}
+
+.menu-table td {
+    background-color: #f9f9f9;
+}
+
+.menu-table tr:nth-child(even) td {
+    background-color: #f2f2f2;
+}
+
+.menu-table td img {
+    width: 120px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-table select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 80%;
+    text-align: center;
+    font-size: 14px;
+}
+.order-btn{
+    background: #ff6600;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.order-btn:hover{
+    background: #e65c00;
+}
+/* Contact Us Section */
+#contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-container {
+    max-width: 500px;
+    margin: 0 auto ;
+    background-image: url("contactus.jpg");
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h2 {
+    color: #f7efefe3;
+    background-color: #333b5c;
+    margin-bottom: 10px;
+}
+
+.contact-container p {
+    color: #ece6e6;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background: #ff6600;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background: #e65c00;
+}
+#Delicious-info{
+    text-align: center;
+    padding: 20px;
+    background: none;
+    border-top: 2px solid #ccc;
+}
+#Delicious-info h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* Hover effects */
+.menu-table tr:hover {
+    background-color: #f2d7d5;
+    cursor: pointer;
+}

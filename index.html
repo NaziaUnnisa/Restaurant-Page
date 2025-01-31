@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Restaurant Logo">
+        </div>
+        <h1>Delicious Eats</h1>
+        <h2><p>-By Nazia Unnisa</p></h2>
+    </header>
+<body>
+    <main>
+
+    
+        <section class="hero">
+            <h2>Experience the Best Food in Town</h2>
+            <p><h4>Delicious meals made with love and the finest ingredients.</h4></p>
+        </section>
+        <br>
+
+        <section class="about">
+            <h2>About Us</h2>
+            <p><h4>At Delicious Eats, we believe in serving fresh, flavorful dishes that satisfy your taste buds.
+                <br> Whether you're craving Italian, Middle Eastern, or classic comfort food, we have something for everyone.
+            <br>Visit our Offline Store too.You'll be amazed</h4></p>      
+         </section>
+
+        <section class="specials">
+            <h2>Today's Specials</h2>
+            <div class="special-item">
+                <img src="spaghetti.jpg" alt="Special Dish">
+                <p>Chef's Special Pasta - A rich and creamy delight.</p>
+            </div>
+            <div class="special-item">
+                <img src="kabsa.jpg" alt="Special Dish">
+                <p>Grilled Chicken Kabsa - A Middle Eastern favorite.</p>
+            </div>
+        </section>
+        <br>
+        <section class="menu">
+            <h2>Our Menu</h2>
+            <table class="menu-table">
+                <thead>
+                    <tr>
+                        <th>Dish</th>
+                        <th>Description</th>
+                        <th>Size-Price</th>
+                        <th>Image</th>
+                        <th>Option Available</th>
+                        <th>Order</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Italian Pasta </td>
+                        <td>Classic Italian pasta with creamy sauce, bacon, and parmesan.</td>
+                    </td>
+                    <td><select>
+                        <option value="small"> Small-200rs</option>
+                        <option value="medium"> Medium-400rs</option>
+                        <option value="large"> Large-800rs</option>
+                    </select></td>
+                        <td><img src="spaghetti.jpg" alt="Italian Pasta"></td>
+                        <td>Veg and Non Veg</td>
+                        <td><button class="order-btn"onclick="orderNow('Italian Pasta')">Order Now</button></td>
+                    </tr>
+                    <tr>
+                        <td>Cheese Pizza</td>
+                        <td>Thin crust pizza with fresh mozzarella cheese, basil, and tomatoes.</td>
+                        <td><select>
+                            <option value="small"> Small-300rs</option>
+                            <option value="medium"> Medium-450rs</option>
+                            <option value="large"> Large-600rs</option>
+                        </select></td>
+                        
+                        <td><img src="pizza.jpg" alt="CheeseBas"></td>
+                        <td>Veg and Non Veg</td>
+                        <td><button class="order-btn"onclick="orderNow('Cheese Pizza')">Order Now</button></td>
+                    
+                    </tr>
+                    <tr>
+                        <td> Parmesan Salad</td>
+                        <td>Crisp romaine lettuce, creamy dressing, croutons, and parmesan.</td>
+                        <td><select>
+                            <option value="small">Small-250rs</option>
+                            <option value="medium">Medium-400rs</option>
+                            <option value="large">Large-550rs</option>
+                           
+                        </select></td>
+                        
+                        <td><img src="salad.jpg" alt="Parmesan Salad"></td>
+                        <td>Veg and Non Veg</td>
+                        <td><button class="order-btn"onclick="orderNow('Parmesan Salad')">Order Now</button></td>
+
+                    </tr>
+                    <tr>
+                        <td> Grilled Chicken Kabsa</td>
+                        <td>Juicy  chicken served with roasted vegetables and rice. Veg options available</td>
+                        <td><select>
+                            <option value="small">Small-150rs</option>
+                            <option value="medium">Medium-350rs</option>
+                            <option value="large">Large-600rs</option>
+                        </select></td>
+                        <td><img src="kabsa.jpg" alt="Kabsa"></td>
+                        <td>Veg and Non Veg</td>
+                        <td><button class="order-btn"onclick="orderNow(' Grilled Chicken Kabsa')">Order Now</button></td>
+
+                    </tr>
+                    <tr>
+                        <td>  Cheesy SandWich</td>
+                        <td>Crispy Sandwich with rich vegetables.</td>
+                        <td><select>
+                            <option value="small"> Small-250rs</option>
+                            <option value="medium"> Medium-350rs</option>
+                            <option value="large"> Large-600rs</option>
+                        </select></td>
+                        
+                        <td><img src="sandwich.jpg" alt=" Cheesy SandWich"></td>
+                        <td>Veg and Non Veg</td>
+                        <td><button class="order-btn"onclick="orderNow('Cheesy SandWich')">Order Now</button></td>
+
+                    </tr>
+                    <tr>
+                        <td> Black Forest Cake</td>
+                        <td>A cake with filled chocolate and cream to lift up your mood.</td>
+                        <td><select>
+                            <option value="small"> Small-150rs</option>
+                            <option value="medium"> Medium-300rs</option>
+                            <option value="large"> Large-600rs</option>
+                        </select></td>
+                        
+                        <td><img src="black.jpg" alt="Black Forest"></td>
+                        <td>With Egg or Eggless</td>
+                        <td><button class="order-btn"onclick="orderNow('Black Forest Cake')">Order Now</button></td>
+
+
+                    </tr>
+                    <tr>
+                        <td> Ice Cream Cake</td>
+                        <td>A delightful dessert with ice cream and a combination of cake .</td>
+                        <td><select>
+                            <option value="small"> Small-100rs</option>
+                            <option value="medium"> Medium-200rs</option>
+                            <option value="large"> Large-400rs</option>
+                        </select></td>
+                        
+                        <td><img src="icecream cake.jpg" alt="Ice Cream Cake"></td>
+                        <td>Sugar or No Sugar</td>
+                        <td><button class="order-btn"onclick="orderNow('Ice Cream Cake')">Order Now</button></td>
+
+                        
+                    </tr>
+                </tbody>
+            </table>
+            <section id="contact">
+                <div class="contact-container">
+                    <h2>Contact Us</h2>
+                    <p><h4>Any questions or want to place an order? Reach out to us! </h4></p>
+                    
+            
+                    <form class="contact-form">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+            
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+            
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+            
+                        <button type="submit">Send Message</button>
+                        <p><h4>DeliciouEat06@gmail.com</h4></p>
+                    </form>
+                    
+                </div>
+                <section id="Delicious-info">
+                    <h2>Our Information</h2>
+                    <h1>
+                    <p><strong>Email:</strong>DeliciousEat06@gmail.com</p>
+                    <p><strong>Number</strong>140 234567890</p>
+                    <p><strong>Address:</strong> Malakpet,Hyderabad,India</p>
+                    <p><h3> 100% Halal Certified Food</h3></p></h1>
+                </section>
+                
+</div>
+            </section>
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Delicious Eats | All Rights Reserved | Design By Nazia Unnisa</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
